@@ -6,11 +6,45 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>CS 425 Project 1: Session Search</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="scripts/Project1.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        
+        <a href = "/Project1"> Search registration</a>
+        <a href = "/Project1/registration.html"> Register for a session</a>
+        <br>
+        
+        <form name="inputform" id="inputform" action="#">
+
+            <fieldset>
+             
+                <legend>Search Sessions</legend>
+
+                <label for="input">Select Session: </label>
+
+                <select name="input" id="input">
+                    <option value="1">Session 1</option>
+                    <option value="2">Session 2</option>
+                    <option value="3">Session 3</option>
+                    <option value="4">Session 4</option>
+                </select>
+                
+                <input type="button" value="Submit" onclick="Project1.getSelection();">
+
+            </fieldset>
+
+        </form>
+        
+        <div id="output"></div>
+        
+        <script type="text/javascript">
+            Project1.init();
+        </script>
+      
     </body>
 </html>

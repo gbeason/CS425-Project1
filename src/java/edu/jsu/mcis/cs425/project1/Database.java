@@ -1,4 +1,4 @@
-package java.jsu.edu.mcis;
+package edu.jsu.mcis.cs425.project1;
 
 import java.io.IOException;
 import java.sql.ResultSetMetaData;

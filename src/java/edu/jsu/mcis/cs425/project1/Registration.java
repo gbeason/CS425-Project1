@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.jsu.edu.mcis;
+package edu.jsu.mcis.cs425.project1;
 
 import java.io.*;
 import java.sql.SQLException;
